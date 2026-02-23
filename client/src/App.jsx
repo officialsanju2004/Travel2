@@ -15,7 +15,7 @@ const Spinner = () => (
   <div className="h-screen bg-ink-950 flex items-center justify-center">
     <div className="flex flex-col items-center gap-3">
       <div className="w-8 h-8 border-2 border-azure-500 border-t-transparent rounded-full animate-spin" />
-      <span className="text-ink-500 text-sm font-display">Loading...</span>
+      <span className="text-ink-500 text-sm font-display">Loading....</span>
     </div>
   </div>
 )
