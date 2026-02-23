@@ -20,7 +20,7 @@ app.use(morgan('dev'));
 app.get("/", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "TravelCRM Backend Running Successfully 🚀"
+    message: "TravelCRM Backend Running Successfully "
   });
 });
 
