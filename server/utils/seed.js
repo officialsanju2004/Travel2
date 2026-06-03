@@ -11,7 +11,7 @@ const sources = ['Facebook', 'Instagram', 'Website', 'Referral', 'WhatsApp', 'Ph
 const statuses = ['New', 'Contacted', 'Quotation Sent', 'Flight Booked', 'Hotel Booked', 'Confirmed', 'Cancelled', 'Lost'];
 const priorities = ['Low', 'Medium', 'High', 'Urgent'];
 
-const names = ['Ahmed Al-Rashidi', 'Sarah Johnson', 'Mohammed Al-Farsi', 'Emily Chen', 'Khalid Al-Mansoori', 'Jessica Williams', 'Omar Al-Hashimi', 'Priya Sharma', 'Abdullah Al-Zaabi', 'Laura Martinez'];
+const names = ['Ahmed Al-Rashidi', 'Sarah johnson', 'Mohammed Al-Farsi', 'Emily Chen', 'Khalid Al-Mansoori', 'Jessica Williams', 'Omar Al-Hashimi', 'Priya Sharma', 'Abdullah Al-Zaabi', 'Laura Martinez'];
 
 async function seed() {
   await mongoose.connect(MONGO_URI);
