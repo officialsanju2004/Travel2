@@ -14,7 +14,7 @@ const generateInvoice = (res, payment, lead) => {
   // Company Info
   doc
     .fontSize(20)
-    .text("Travel CRM Pvt Ltd", { align: "center" })
+    .text("Travel CRM Pvt LTD", { align: "center" })
     .moveDown();
 
   doc.fontSize(12).text("Email: support@travelcrm.com");
